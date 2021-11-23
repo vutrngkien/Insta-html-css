@@ -1,0 +1,83 @@
+:root {
+    --text-color: #3f3f3f;
+    --text-sub-color: #9d9d9d;
+    --text-blue-color: #0095f6;
+    --text-gray-color:#8f8f8f;
+    --border-color: #dbdbdb;
+    --background-color: #fafafa;
+    --background-blue-color: #0095f6; 
+    --white-color: #fff;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* 62,5% => 1rem = 10px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 935px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.grid-4{
+    width: 33.3333%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.grid-8{
+    width: 66.667%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.btn{
+    min-width: 76px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 5px 9px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.arrow {
+    border-style: solid;
+    border-width: 14px;
+    border-color: white white transparent transparent ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    border-style: solid;
+    transform: rotate(315deg);
+}
+
+.gradient {
+    background: linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(var(--f23,255,255,255),1) 100%);
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    border-radius: 20px;
+
+}
