@@ -754,11 +754,12 @@ body {
 }
 
 .side__suggest span {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: var(--text-sub-color);
     font-weight: 600;
     flex: 1;
     display: block;
+    opacity: 0.8;
 }
 
 .side__suggest-link{
@@ -832,6 +833,7 @@ body {
     width: 230px;
     font-size: 1.1rem;
     opacity: 0.6;
+    margin-top: 38px;
 }
 
 .slide__footer-item::after{
@@ -864,6 +866,8 @@ body {
     font-size: 1.1rem;
     opacity: 0.6;
     color: var(--text-sub-color);
+    margin-top: 22px;
+    display: block;
 }
 
 .post:last-child{
